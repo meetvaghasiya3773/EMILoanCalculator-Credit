@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden pt-20 pb-32 lg:pt-32 lg:pb-48">
+    <section className="relative overflow-hidden pt-20 pb-0 lg:pt-32 lg:pb-10">
       {/* Background Decor */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-gradient-to-b from-background/90 via-background/50 to-background/90 z-10" />
-        <img 
-          src={heroBg} 
-          alt="Background" 
+        <img
+          src={heroBg}
+          alt="Background"
           className="w-full h-full object-cover opacity-20"
         />
       </div>
@@ -29,25 +29,41 @@ export default function Hero() {
             </span>
             #1 Finance Utility App
           </div>
-          
+
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-extrabold text-foreground tracking-tight mb-6">
             Master Your Finances with <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-400">EMI Loan Calculator - Credit</span>
           </h1>
-          
+
           <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
-            The ultimate tool for EMI, Loan, Investment, and Tax calculations. 
+            The ultimate tool for EMI, Loan, Investment, and Tax calculations.
             Smart financial planning made simple for everyone.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button size="lg" className="h-14 px-8 text-lg rounded-full shadow-xl shadow-primary/25 hover:shadow-primary/40 hover:-translate-y-0.5 transition-all w-full sm:w-auto">
+            <Button
+              size="lg"
+              className="h-14 px-8 text-lg rounded-full shadow-xl shadow-primary/25 hover:shadow-primary/40 hover:-translate-y-0.5 transition-all w-full sm:w-auto"
+              onClick={() =>
+                window.open(
+                  "https://apps.apple.com/app/id6756540889",
+                  "_blank"
+                )
+              }
+            >
               <Download className="mr-2 w-5 h-5" />
               Download on App Store
             </Button>
-            <Button variant="outline" size="lg" className="h-14 px-8 text-lg rounded-full hover:bg-secondary w-full sm:w-auto">
-              Learn More <ArrowRight className="ml-2 w-5 h-5" />
+
+            <Button
+              variant="outline"
+              size="lg"
+              className="h-14 px-8 text-lg rounded-full hover:bg-secondary w-full sm:w-auto"
+              onClick={() => window.open("https://apps.apple.com/us/developer/hardikkumar-ghori/id1861281409", "_blank")}
+            >
+              See More <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
           </div>
+
 
           <div className="mt-12 flex items-center justify-center gap-8 text-muted-foreground grayscale opacity-60">
             <div className="flex items-center gap-2">

@@ -13,7 +13,7 @@ const benefits = [
 
 export default function AppShowcase() {
   return (
-    <section className="py-24 overflow-hidden">
+    <section className="py-10 overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
           

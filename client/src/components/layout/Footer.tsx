@@ -2,7 +2,7 @@ import { Calculator, Linkedin, Twitter, Github } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-muted/30 border-t pt-16 pb-8">
+    <footer className="bg-muted/30 border-t pt-5 pb-8">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div className="space-y-4">
@@ -17,7 +17,7 @@ export default function Footer() {
             </p>
           </div>
           
-          <div>
+          {/* <div>
             <h3 className="font-heading font-semibold mb-4">Product</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><a href="#" className="hover:text-primary transition-colors">Features</a></li>
@@ -25,19 +25,19 @@ export default function Footer() {
               <li><a href="#" className="hover:text-primary transition-colors">Pricing</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">Download</a></li>
             </ul>
-          </div>
+          </div> */}
 
           <div>
             <h3 className="font-heading font-semibold mb-4">Company</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#" className="hover:text-primary transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Contact</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Terms of Service</a></li>
+              {/* <li><a href="#" className="hover:text-primary transition-colors">About Us</a></li> */}
+              {/* <li><a href="#" className="hover:text-primary transition-colors">Contact</a></li> */}
+              <li><a href="https://emiloancalculatorcredit.blogspot.com/2025/12/Privacy-Policy.html" className="hover:text-primary transition-colors">Privacy Policy</a></li>
+              {/* <li><a href="#" className="hover:text-primary transition-colors">Terms of Service</a></li> */}
             </ul>
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="font-heading font-semibold mb-4">Connect</h3>
             <div className="flex gap-4">
               <a href="#" className="bg-background border p-2 rounded-full hover:border-primary/50 hover:text-primary transition-all">
@@ -50,11 +50,11 @@ export default function Footer() {
                 <Github className="w-4 h-4" />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="border-t pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-          <p>© 2024 EMI Loan Calculator. All rights reserved.</p>
+          <p>© 2026 EMI Loan Calculator - Credit. All rights reserved.</p>
           <p>Designed with precision.</p>
         </div>
       </div>
