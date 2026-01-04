@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Calculator } from "lucide-react";
 import { Link } from "wouter";
-import appIcon from "@assets/generated_images/modern_3d_app_icon_for_finance_calculator.png";
+import appIcon from "@assets/400x400bb-75_1767543270209.webp";
 
 export default function Navbar() {
   return (
@@ -15,7 +14,7 @@ export default function Navbar() {
               className="w-8 h-8 rounded-lg shadow-sm"
             />
             <span className="font-heading font-bold text-xl tracking-tight text-foreground">
-              EMI Calculator
+              EMI Loan Calculator - Credit
             </span>
           </a>
         </Link>

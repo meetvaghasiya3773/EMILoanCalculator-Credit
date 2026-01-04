@@ -33,66 +33,66 @@
 }
 
 :root {
-  /* Fintech Blue Theme */
-  --background: 210 40% 98%;    /* Soft blue-white */
-  --foreground: 222 47% 11%;    /* Deep Navy */
+  /* Vibrant Purple Theme */
+  --background: 270 30% 98%;    /* Soft purple-white */
+  --foreground: 270 47% 11%;    /* Deep Purple Navy */
 
   --card: 0 0% 100%;
-  --card-foreground: 222 47% 11%;
+  --card-foreground: 270 47% 11%;
 
   --popover: 0 0% 100%;
-  --popover-foreground: 222 47% 11%;
+  --popover-foreground: 270 47% 11%;
 
-  --primary: 221 83% 53%;       /* Bright Blue (Action) */
+  --primary: 270 91% 60%;       /* Vibrant Purple */
   --primary-foreground: 210 40% 98%;
 
-  --secondary: 210 40% 96%;     /* Very light blue grey */
-  --secondary-foreground: 222 47% 11%;
+  --secondary: 270 40% 96%;
+  --secondary-foreground: 270 47% 11%;
 
-  --muted: 210 40% 96%;
-  --muted-foreground: 215 16% 47%;
+  --muted: 270 40% 96%;
+  --muted-foreground: 270 16% 47%;
 
-  --accent: 210 40% 96%;
-  --accent-foreground: 222 47% 11%;
+  --accent: 270 40% 96%;
+  --accent-foreground: 270 47% 11%;
 
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 210 40% 98%;
 
-  --border: 214 32% 91%;
-  --input: 214 32% 91%;
-  --ring: 221 83% 53%;
+  --border: 270 32% 91%;
+  --input: 270 32% 91%;
+  --ring: 270 91% 60%;
 
   --radius: 0.75rem;
 }
 
 .dark {
-  --background: 222 47% 11%;    /* Deep Navy Background */
-  --foreground: 210 40% 98%;
+  --background: 270 47% 11%;    /* Deep Purple Background */
+  --foreground: 270 40% 98%;
 
-  --card: 217 33% 17%;
-  --card-foreground: 210 40% 98%;
+  --card: 270 33% 17%;
+  --card-foreground: 270 40% 98%;
 
-  --popover: 217 33% 17%;
-  --popover-foreground: 210 40% 98%;
+  --popover: 270 33% 17%;
+  --popover-foreground: 270 40% 98%;
 
-  --primary: 217 91% 60%;       /* Lighter Blue for Dark Mode */
-  --primary-foreground: 222 47% 11%;
+  --primary: 270 91% 65%;       /* Lighter Purple for Dark Mode */
+  --primary-foreground: 270 47% 11%;
 
-  --secondary: 217 33% 17%;
-  --secondary-foreground: 210 40% 98%;
+  --secondary: 270 33% 17%;
+  --secondary-foreground: 270 40% 98%;
 
-  --muted: 217 33% 17%;
-  --muted-foreground: 215 20% 65%;
+  --muted: 270 33% 17%;
+  --muted-foreground: 270 20% 65%;
 
-  --accent: 217 33% 17%;
-  --accent-foreground: 210 40% 98%;
+  --accent: 270 33% 17%;
+  --accent-foreground: 270 40% 98%;
 
   --destructive: 0 62.8% 30.6%;
-  --destructive-foreground: 210 40% 98%;
+  --destructive-foreground: 270 40% 98%;
 
-  --border: 217 33% 17%;
-  --input: 217 33% 17%;
-  --ring: 224 76% 48%;
+  --border: 270 33% 17%;
+  --input: 270 33% 17%;
+  --ring: 270 76% 48%;
 }
 
 @layer base {

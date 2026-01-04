@@ -31,7 +31,7 @@ export default function Hero() {
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-extrabold text-foreground tracking-tight mb-6">
-            Master Your Finances with <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-400">Precision</span>
+            Master Your Finances with <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-400">EMI Loan Calculator - Credit</span>
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
