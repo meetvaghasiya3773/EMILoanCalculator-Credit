@@ -1,0 +1,8 @@
+services:
+  - type: static
+    name: emi-loan-calculator
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist/public
+    envVars:
+      - key: NODE_ENV
+        value: production
