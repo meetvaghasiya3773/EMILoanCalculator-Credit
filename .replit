@@ -9,15 +9,12 @@ channel = "stable-24_05"
 localPort = 5000
 externalPort = 80
 
-[[ports]]
-localPort = 5001
-externalPort = 3001
-
 [env]
 PORT = "5000"
 
 [deployment]
 deploymentTarget = "static"
+publishDirectory = "dist"
 build = ["npm", "run", "build"]
 publicDir = "dist/public"
 
